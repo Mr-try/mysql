@@ -18,5 +18,11 @@ Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
 mysql>
 ```
 
-如果你登录到MySQL运行在同一台机器，你可以省略主机，简单地使用下面的：
+如果你登录到的MySQL运行在同一台机器，你可以省略主机，简单地使用下面的：
+
+```
+shell>mysql -u user -p
+```
+
+
 

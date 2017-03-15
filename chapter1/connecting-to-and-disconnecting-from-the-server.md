@@ -5,5 +5,5 @@ shell>mysql -h host -u user -p
 Enter password: ********
 ```
 
-host和user代表你的MySQL服务器运行时的主机名和你的MySQL帐户的用户名。为您的设置替换适当的值。的\*\*\*\*\*\*\*\*代表您的密码；输入时显示提示输入密码：MySQL。
+host和user代表你的MySQL服务器运行时的主机名和你的MySQL帐户的用户名。为您的设置替换适当的值。\*\*\*\*\*\*\*\*代表您的密码，
 

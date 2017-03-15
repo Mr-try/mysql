@@ -7,7 +7,16 @@ Enter password: ********
 
 host和user代表你的MySQL服务器运行时的主机名和你的MySQL帐户的用户名。为您的设置替换适当的值。\*\*\*\*\*\*\*\*代表您的密码，当终端显示Enter password时输入。
 
-如果成功，你会看到一些入门提示，其次是进入MySQL的命令行。
+如果成功，你会看到一些入门提示，其次是进入MySQL的命令行，告诉用户随时可以输入SQL语句。
 
+```
+shell>mysql -h host -u user -p
+Enter password: ********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 25338 to server version: 5.7.19-standard
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+mysql>
+```
 
+如果你登录到MySQL运行在同一台机器，你可以省略主机，简单地使用下面的：
 

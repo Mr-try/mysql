@@ -15,5 +15,9 @@ mysql>SELECT VERSION(), CURRENT_DATE;
 mysql>
 ```
 
+这个查询说明了一些关于MySQL的东西：
+
+* 查询通常由sql语句和结尾的分号组成。也有一些例外，可以省略分号。比如QUIT。以后还会见到其他的领子。
+
 
 

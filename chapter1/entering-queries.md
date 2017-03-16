@@ -24,3 +24,11 @@ mysql>
 
 查询语句不区分大小写。以下查询是等效的：
 
+```
+mysql>SELECT VERSION(), CURRENT_DATE;
+mysql>select version(), current_date;
+mysql>SeLeCt vErSiOn(), current_DATE;
+```
+
+
+

@@ -95,10 +95,10 @@ mysql>
 | :--- | :--- |
 | `mysql>` | 准备好新的查询 |
 | `->` | 等待多行查询的下一行 |
-| `'>` | Waiting for next line, waiting for completion of a string that began with a single quote \(`'`\) |
-| `">` | Waiting for next line, waiting for completion of a string that began with a double quote \(`"`\) |
-| ```>`` | Waiting for next line, waiting for completion of an identifier that began with a backtick \(\`\`\`\`\`\) |
-| `/*>` | Waiting for next line, waiting for completion of a comment that began with`/*` |
+| `'>` | 等待下一行，等待以单引号（'）开始的字符串的完成 |
+| `">` | 等待下一行，等待以双引号（“）开头的字符串的完成 |
+| ```>`` | 等待下一行，等待完成以反引号开头的标识符（\`） |
+| `/*>` | 等待下一行，等待完成一个以/ \*开头的注释， |   |
 
 
 

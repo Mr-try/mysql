@@ -126,5 +126,17 @@ mysql>SELECT * FROM my_table WHERE name = 'Smith AND age <30;
     '>
 ```
 
+如果输入此SELECT语句，然后按Enter键并等待结果，则不会发生任何操作。而不是想知道为什么这个查询花费这么长时间，注意由'&gt;提示提供的线索。它告诉你，mysql期望看到未终止的字符串的其余部分。 （你看到语句中的错误吗？字符串'Smith缺少第二个单引号。）
+
+在这一点上，你做什么？最简单的是取消查询。但是，在这种情况下不能键入\ c，因为mysql将它解释为它正在收集的字符串的一部分。而是输入结束引号字符（因此mysql知道您已完成字符串），然后键入\ c：
+
+
+
+```
+mysql>SELECT * FROM my_table WHERE name = 'Smith AND age < 30;
+    '>'\c
+mysql>
+```
+
 
 

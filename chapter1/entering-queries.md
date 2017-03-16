@@ -66,7 +66,6 @@ mysql>SELECT VERSION(); SELECT NOW();
 
 ```
 mysql>SELECT
-
     ->USER()
     ->,
     ->CURRENT_DATE;

@@ -87,17 +87,17 @@ mysql>SELECT
 mysql>
 ```
 
-在这里，也注意提示。在键入\ c后，它将切换回mysql&gt;，提供反馈以指示mysql已准备好进行新的查询。
+在这里，也注意提示。在键入 c后，它将切换回mysql&gt;，提供反馈以指示mysql已准备好进行新的查询。
 
 下表显示了您可能看到的每个提示，并总结了它们对mysql所在的状态的含义。
 
 | Prompt | Meaning |
 | :--- | :--- |
-| `mysql>` | Ready for new query |
-| `->` | Waiting for next line of multiple-line query |
+| `mysql>` | 准备好新的查询 |
+| `->` | 等待多行查询的下一行 |
 | `'>` | Waiting for next line, waiting for completion of a string that began with a single quote \(`'`\) |
 | `">` | Waiting for next line, waiting for completion of a string that began with a double quote \(`"`\) |
-| ```>`` | Waiting for next line, waiting for completion of an identifier that began with a backtick \(`````\) |
+| ```>`` | Waiting for next line, waiting for completion of an identifier that began with a backtick \(\`\`\`\`\`\) |
 | `/*>` | Waiting for next line, waiting for completion of a comment that began with`/*` |
 
 

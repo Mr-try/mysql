@@ -18,9 +18,21 @@
 * 以各种方式从表中检索数据
 * 使用多个表
 
-menagerie数据库很简单，但是不难想到现实世界中可能使用类似类型的数据库的情况。例如，这样的数据库可以被农民用来跟踪牲畜，或者由兽医来跟踪患者记录。可以从MySQL Web站点获取包含以下部分中使用的一些查询和样本数据的menagerie分发。它提供压缩的tar文件和Zip格式在http://dev.mysql.com/doc/。
+menagerie数据库很简单，但是不难想到现实世界中可能使用类似类型的数据库的情况。例如，这样的数据库可以被农民用来跟踪牲畜，或者由兽医来跟踪患者记录。可以从MySQL Web站点获取包含以下部分中使用的一些查询和样本数据的menagerie分发。它提供压缩的tar文件和Zip格式在[http://dev.mysql.com/doc/。](http://dev.mysql.com/doc/。)
 
 使用SHOW语句查找服务器上当前存在哪些数据库：
+
+```
+mysql>
+SHOW DATABASES;
++----------+
+| Database |
++----------+
+| mysql    |
+| test     |
+| tmp      |
++----------+
+```
 
 
 

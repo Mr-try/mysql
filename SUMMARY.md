@@ -24,5 +24,6 @@
     * [The Maximum Value for a Column](chapter1/examples-of-common-queries/the-maximum-value-for-a-column.md)
     * [The Row Holding the Maximum of a Certain Column](chapter1/examples-of-common-queries/the-row-holding-the-maximum-of-a-certain-column.md)
     * [Maximum of Column per Group](chapter1/examples-of-common-queries/maximum-of-column-per-group.md)
+    * [The Rows Holding the Group-wise Maximum of a Certain Column](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

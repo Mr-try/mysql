@@ -8,6 +8,7 @@
     * [Creating and Selecting a Database](creating-and-using-a-database/creating-and-selecting-a-database.md)
     * [Creating a Table](creating-and-using-a-database/creating-a-table.md)
     * [Loading Data into a Table](creating-and-using-a-database/loading-data-into-a-table.md)
+    * [Retrieving Information from a Table](creating-and-using-a-database/retrieving-information-from-a-table.md)
   * [Getting Information About Databases and Tables](chapter1/getting-information-about-databases-and-tables.md)
   * [Using mysql in Batch Mode](chapter1/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter1/examples-of-common-queries.md)

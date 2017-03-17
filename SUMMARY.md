@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-* [Chapter 4 Tutorial](chapter1.md)
+* [Chapter 4 Tutorial](SUMMARY.md)
   * [Connecting to and Disconnecting from the Server](chapter4/connecting-to-and-disconnecting-from-the-server.md)
   * [Entering Queries](chapter4/entering-queries.md)
   * [Creating and Using a Database](creating-and-using-a-database.md)

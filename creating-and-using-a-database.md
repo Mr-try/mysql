@@ -40,3 +40,10 @@ mysql数据库描述用户访问权限。测试数据库通常作为工作区提
 
 如果测试数据库存在，请尝试访问它：
 
+```
+mysql>USE test
+Database changed
+```
+
+
+

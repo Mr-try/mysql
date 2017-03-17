@@ -26,5 +26,6 @@
     * [Maximum of Column per Group](chapter1/examples-of-common-queries/maximum-of-column-per-group.md)
     * [The Rows Holding the Group-wise Maximum of a Certain Column](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
     * [Using User-Defined Variables](chapter1/examples-of-common-queries/using-user-defined-variables.md)
+    * [Using Foreign Keys](chapter1/examples-of-common-queries/using-foreign-keys.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

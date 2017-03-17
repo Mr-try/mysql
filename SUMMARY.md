@@ -7,6 +7,6 @@
   * [Creating and Using a Database](creating-and-using-a-database.md)
   * Getting Information About Databases and Tables
   * Using mysql in Batch Mode
-  * Examples of Common Queries
+  * [Examples of Common Queries](chapter1/examples-of-common-queries.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

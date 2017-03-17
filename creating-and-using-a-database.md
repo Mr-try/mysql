@@ -49,3 +49,9 @@ USE和QUIT命令一样，不需要分号。 （如果你喜欢，你可以用分
 
 您可以使用测试数据库（如果您可以访问它）后面的示例，但您在该数据库中创建的任何内容都可以由任何其他有权限的用户删除。因此，您应该询问您的MySQL管理员是否有权使用您自己的数据库。假设你想调用你的menagerie。管理员需要执行如下语句：
 
+```
+mysql>GRANT ALL ON menagerie.* TO 'your_mysql_name'@'your_client_host';
+```
+
+其中your\_mysql\_name是分配给您的MySQL用户名，your\_client\_host是您连接到服务器的主机。
+

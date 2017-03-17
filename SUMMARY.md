@@ -27,5 +27,6 @@
     * [The Rows Holding the Group-wise Maximum of a Certain Column](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
     * [Using User-Defined Variables](chapter1/examples-of-common-queries/using-user-defined-variables.md)
     * [Using Foreign Keys](chapter1/examples-of-common-queries/using-foreign-keys.md)
+    * [Searching on Two Keys](chapter1/examples-of-common-queries/searching-on-two-keys.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

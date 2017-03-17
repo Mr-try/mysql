@@ -34,5 +34,7 @@ SHOW DATABASES;
 +----------+
 ```
 
+mysql数据库描述用户访问权限。测试数据库通常作为工作区提供给用户尝试。
 
+语句显示的数据库列表可能在您的计算机上不同;如果您没有SHOW DATABASES权限，SHOW DATABASES不显示您没有权限的数据库。请参见第14.7.5.14节“[SHOW DATABASES Syntax](https://dev.mysql.com/doc/refman/5.7/en/show-databases.html)”。
 

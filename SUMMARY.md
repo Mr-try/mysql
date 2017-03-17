@@ -29,5 +29,6 @@
     * [Using Foreign Keys](chapter1/examples-of-common-queries/using-foreign-keys.md)
     * [Searching on Two Keys](chapter1/examples-of-common-queries/searching-on-two-keys.md)
     * [Calculating Visits Per Day](chapter1/examples-of-common-queries/calculating-visits-per-day.md)
+    * [Using AUTO\_INCREMENT](chapter1/examples-of-common-queries/using-autoincrement.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

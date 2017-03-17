@@ -9,4 +9,5 @@
   * [Using mysql in Batch Mode](chapter1/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter1/examples-of-common-queries.md)
   * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
+* [Creating and Selecting a Database](creating-and-selecting-a-database.md)
 

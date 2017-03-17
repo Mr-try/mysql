@@ -18,7 +18,7 @@
       * [Pattern Matching](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
       * [Counting Rows](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
       * [Using More Than one Table](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
-  * [Getting Information About Databases and Tables](chapter4/getting-information-about-databases-and-tables.md4)
+  * [Getting Information About Databases and Tables](chapter4/getting-information-about-databases-and-tables.md)
   * [Using mysql in Batch Mode](chapter4/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter4/examples-of-common-queries.md)
     * [The Maximum Value for a Column](chapter4/examples-of-common-queries/the-maximum-value-for-a-column.md)

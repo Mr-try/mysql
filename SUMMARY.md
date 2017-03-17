@@ -8,5 +8,5 @@
   * Getting Information About Databases and Tables
   * Using mysql in Batch Mode
   * Examples of Common Queries
-  * Using MySQL with Apache
+  * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
 

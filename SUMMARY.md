@@ -18,7 +18,7 @@
       * [Pattern Matching](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
       * [Counting Rows](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
       * [Using More Than one Table](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
-  * [Getting Information About Databases and Tables](chapter1/getting-information-about-databases-and-tables.md4)
+  * [Getting Information About Databases and Tables](chapter4/getting-information-about-databases-and-tables.md4)
   * [Using mysql in Batch Mode](chapter4/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter4/examples-of-common-queries.md)
     * [The Maximum Value for a Column](chapter4/examples-of-common-queries/the-maximum-value-for-a-column.md)
@@ -30,5 +30,5 @@
     * [Searching on Two Keys](chapter1/examples-of-common-queries/searching-on-two-keys.md)
     * [Calculating Visits Per Day](chapter1/examples-of-common-queries/calculating-visits-per-day.md)
     * [Using AUTO\_INCREMENT](chapter1/examples-of-common-queries/using-autoincrement.md)
-  * [Using MySQL with Apache](chapter1/using-mysql-with-apache.md)
+  * [Using MySQL with Apache](chapter4/using-mysql-with-apache.md)
 

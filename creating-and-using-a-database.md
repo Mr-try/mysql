@@ -45,5 +45,5 @@ mysql>USE test
 Database changed
 ```
 
-
+USE和QUIT命令一样，不需要分号。 （如果你喜欢，你可以用分号终止这样的语句;它没有任何危害。）USE语句也是另一种特殊的：它必须在一行上给出
 

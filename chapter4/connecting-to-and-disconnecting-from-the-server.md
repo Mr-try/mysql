@@ -26,7 +26,7 @@ mysql>
 shell>mysql -u user -p
 ```
 
-如果，当您尝试登录，你得到一个错误信息，如ERROR 2002（HY000）：不能通过socket '/temp/mysql.sock'连接到本地MySql服务\(2\)，这意味着MySQL服务器守护进程（UNIX）或服务（Windows）没有运行。咨询管理员或回顾第二章：[Installing and Upgrading MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html)，使之适合您的操作系统。
+如果当您尝试登录，你得到一个错误信息，如ERROR 2002（HY000）：不能通过socket '/temp/mysql.sock'连接到本地MySql服务\(2\)，这意味着MySQL服务器守护进程（UNIX）或服务（Windows）没有运行。咨询管理员或回顾第二章：[Installing and Upgrading MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html)，使之适合您的操作系统。
 
 帮助试图登录时经常遇到的其他问题：[Section B.5.2, “Common Errors When Using MySQL Programs”](https://dev.mysql.com/doc/refman/5.7/en/common-errors.html)
 

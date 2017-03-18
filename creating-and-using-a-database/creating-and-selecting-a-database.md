@@ -17,5 +17,12 @@ mysql>USE menagerie
 Database changed
 ```
 
+您的数据库只需要创建一次，但您必须在每次MySQL会话开始时选择它。您可以通过一个命令语句，如示例中所示。或者，您可以在调用MySQL时选择命令行上的数据库。只需在您可能需要提供的连接参数后指定其名称。例如:
+
+```
+shell>mysql -h host -u user -p menagerie
+Enter password: ********
+```
+
 
 

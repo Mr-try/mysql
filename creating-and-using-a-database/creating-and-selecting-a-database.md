@@ -24,5 +24,7 @@ shell>mysql -h host -u user -p menagerie
 Enter password: ********
 ```
 
+**注：menagerie只是在命令行中显示，不是密码。如果你的-p选项后要提供您的密码在命令行中，你必须这样做，（例如，作为 -pmypassword，不是-P mypassword）。然而，在命令行上输入密码是不被推荐的，因为这样做会使它暴露在你的机器上登录的其他用户的窥探中。**
 
+**注：你可以在任何时间使用 SELECT DATABASE\(\)命令查看正在使用的数据库。**
 

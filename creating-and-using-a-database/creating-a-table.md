@@ -32,3 +32,42 @@ mysql>CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
 
 一旦创建表后，执行SHOW TABLES命令会输出如下信息：
 
+```
+mysql>SHOW TABLES;
++---------------------+
+| Tables in menagerie |
++---------------------+
+| pet                 |
++---------------------+
+```
+
+要验证您的表是按照您预期的方式创建的，请使用DESCRIBE语句：
+
+```
+mysql>DESCRIBE pet;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| name    | varchar(20) | YES  |     | NULL    |       |
+| owner   | varchar(20) | YES  |     | NULL    |       |
+| species | varchar(20) | YES  |     | NULL    |       |
+| sex     | char(1)     | YES  |     | NULL    |       |
+| birth   | date        | YES  |     | NULL    |       |
+| death   | date        | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+```
+
+您可以在任何时候使用DESCRIBE语句，比如您忘记了列名称或表的其他信息。
+
+关于更多的其他信息，您可以查看MySql data types章节;
+
+
+
+
+
+
+
+
+
+
+

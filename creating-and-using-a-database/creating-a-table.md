@@ -24,5 +24,5 @@ mysql>CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
     ->species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
 ```
 
-对于名称、物种、和所有者三列因为列值的长度不同VARCHAR是个不错的选择。这些列定义中的长度不一定都是相同的，不必是20。你通常可以选择任何长度从1到65535，无论什么似乎是最合理的你。如果你做了一个糟糕的选择，后来发现你需要一个较长的字段，MySQL提供了一个ALTER TABLE语句。
+对于名称、物种、和所有者三列因为列值的长度不同VARCHAR是个不错的选择。这些列定义中的长度不一定都是相同的，不必是20。你通常可以选择任何长度从1到65535。如果你做了一个糟糕的选择，后来发现你需要一个较长的字段，MySQL提供了一个ALTER TABLE语句。
 

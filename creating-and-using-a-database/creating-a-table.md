@@ -59,5 +59,5 @@ mysql>DESCRIBE pet;
 
 您可以在任何时候使用DESCRIBE语句，比如您忘记了列名称或表的其他信息。
 
-关于更多的其他信息，您可以查看MySql data types章节：
+关于更多的其他信息，您可以查看MySql data types章节：[Chapter 12,Data Types](https://dev.mysql.com/doc/refman/5.7/en/data-types.html).
 

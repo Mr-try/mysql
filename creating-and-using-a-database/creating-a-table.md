@@ -28,3 +28,5 @@ mysql>CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
 
 几种类型的值可以被选择来代表性动物记录，如“m”和“f”，或“male”和“female”。使用单个字符“m”和“f”是最简单的。
 
+使用DATE数据类型的出生和死亡列是一个相当明显的选择
+

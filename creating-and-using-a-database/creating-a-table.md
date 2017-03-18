@@ -17,7 +17,12 @@ Empty set (0.00 sec)
 
 * 您可以计算年龄相对于日期以外的日期。例如，如果你在数据库中存储死亡日期，你可以很容易的计算出宠物死后有多大。
 
-您可能会想到对于pet表其他有用的信息，但迄今确定的是足够的：名称，所有者，物种，性别，出生和死亡。
+您可能会想到对于pet表其他有用的信息，但迄今确定的是足够的：名称，所有者，物种，性别，出生和死亡
+
+```
+mysql>CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+    ->species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+```
 
 
 

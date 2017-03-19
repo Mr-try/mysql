@@ -38,3 +38,5 @@ mysql>LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
 
 （在运行OS X的Apple机器上，您可能要使用LINES TERMINATED BY' \r'。）
 
+如果您愿意，可以在LOAD DATA语句中显式指定列值分隔符和行结束标记，但默认值为tabs和linefeed。这些足以使语句正确读取pet.txt文件。
+

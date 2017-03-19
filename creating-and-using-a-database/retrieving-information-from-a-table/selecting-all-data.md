@@ -25,5 +25,7 @@ mysql>SELECT * FROM pet;
 
 * 编辑pet.txt文件以更正错误，然后清空表并使用DELETE和LOAD DATA重新加载：
 
+但是，如果您这样做，您还必须重新输入Puffball的记录。
+
 
 

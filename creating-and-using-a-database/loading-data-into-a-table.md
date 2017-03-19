@@ -49,5 +49,5 @@ mysql>INSERT INTO pet
     ->VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
 ```
 
-
+字符串和日期值在此处指定为带引号的字符串。此外，使用INSERT，您可以直接插入NULL以表示缺少的值。你不像使用LOAD DATA那样使用\ N。从这个例子中，您应该可以看到，使用INSERT语句会比LOAD DATA语句能够输入更过的内容。
 

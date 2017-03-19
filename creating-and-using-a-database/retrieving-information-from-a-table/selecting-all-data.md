@@ -23,3 +23,7 @@ mysql>SELECT * FROM pet;
 
 有至少两种方法来解决这个问题：
 
+* 编辑pet.txt文件以更正错误，然后清空表并使用DELETE和LOAD DATA重新加载：
+
+
+

@@ -33,5 +33,5 @@ mysql>SELECT * FROM pet;
 mysql>UPDATE pet SET birth = '1989-08-31' WHERE name = 'Bowser';
 ```
 
-
+UPDATE只更改相关记录，不需要重新加载表。
 

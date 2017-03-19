@@ -20,10 +20,6 @@ mysql>SELECT * FROM pet WHERE name = 'Bowser';
 您可以在任何列上的指定条件，而不仅仅是名称。例如，如果你想知道哪些动物出生在1998年或之后，测试出生栏：
 
 ```
-
-```
-
-```
 mysql>SELECT * FROM pet WHERE birth >= '1998-1-1';
 +----------+-------+---------+------+------------+-------+
 | name     | owner | species | sex  | birth      | death |
@@ -31,6 +27,17 @@ mysql>SELECT * FROM pet WHERE birth >= '1998-1-1';
 | Chirpy   | Gwen  | bird    | f    | 1998-09-11 | NULL  |
 | Puffball | Diane | hamster | f    | 1999-03-30 | NULL  |
 +----------+-------+---------+------+------------+-------+
+```
+
+您可以组合条件，例如，定位雌性狗：
+
+```
+mysql>SELECT * FROM pet WHERE species = 'dog' AND sex = 'f';
++-------+--------+---------+------+------------+-------+
+| name  | owner  | species | sex  | birth      | death |
++-------+--------+---------+------+------------+-------+
+| Buffy | Harold | dog     | f    | 1989-05-13 | NULL  |
++-------+--------+---------+------+------------+-------+
 ```
 
 

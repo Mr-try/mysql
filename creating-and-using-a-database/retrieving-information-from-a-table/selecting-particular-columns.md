@@ -38,5 +38,19 @@ mysql>SELECT owner FROM pet;
 +--------+
 ```
 
+请注意，查询只是从每个记录中检索所有者列，其中一些显示不止一次。要最小化输出，请通过添加关键字DISTINCT检索每个唯一输出记录一次：
+
+```
+mysql>SELECT DISTINCT owner FROM pet;
++--------+
+| owner  |
++--------+
+| Benny  |
+| Diane  |
+| Gwen   |
+| Harold |
++--------+
+```
+
 
 

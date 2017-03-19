@@ -36,5 +36,5 @@ mysql>LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
     ->LINES TERMINATED BY '\r\n';
 ```
 
-（在运行OS X的Apple机器上，您可能要使用LINES TERMINATED BY'\ r'。）
+（在运行OS X的Apple机器上，您可能要使用LINES TERMINATED BY' \r'。）
 

@@ -43,5 +43,25 @@ mysql>SELECT name, birth FROM pet ORDER BY birth DESC;
 +----------+------------+
 ```
 
+您可以对多个列进行排序，也可以按不同方向对不同列进行排序。例如，要按升序排列动物类型，然后按照动物类型中的出生日期降序（最小的动物首先），使用以下查询：
+
+```
+mysql>SELECT name, species, birth FROM pet
+    ->ORDER BY species, birth DESC;
++----------+---------+------------+
+| name     | species | birth      |
++----------+---------+------------+
+| Chirpy   | bird    | 1998-09-11 |
+| Whistler | bird    | 1997-12-09 |
+| Claws    | cat     | 1994-03-17 |
+| Fluffy   | cat     | 1993-02-04 |
+| Fang     | dog     | 1990-08-27 |
+| Bowser   | dog     | 1989-08-31 |
+| Buffy    | dog     | 1989-05-13 |
+| Puffball | hamster | 1999-03-30 |
+| Slim     | snake   | 1996-04-29 |
++----------+---------+------------+
+```
+
 
 

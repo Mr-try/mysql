@@ -40,3 +40,14 @@ mysql>LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
 
 如果您愿意，可以在LOAD DATA语句中显式指定列值分隔符和行结束标记，但默认值为tabs和linefeed。这些足以使语句正确读取pet.txt文件。
 
+如果语句失败，则很可能默认情况下MySQL安装没有启用本地文件功能。有关如何更改此信息，请参见第7.1.6节“带LOAD DATA LOCAL的安全问题”。
+
+当您想一次添加一个新记录时，INSERT语句很有用。在其最简单的形式中，按照列在CREATE TABLE语句中列出的顺序，为每个列提供值。假设Diane得到一个名为“Puffball”的新hamster。您可以使用如下的INSERT语句添加一个新记录：
+
+```
+mysql>INSERT INTO pet
+    ->VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
+```
+
+
+

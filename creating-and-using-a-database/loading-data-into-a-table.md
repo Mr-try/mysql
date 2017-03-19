@@ -29,14 +29,12 @@ Whistler        Gwen    bird    \N      1997-12-09      \N
 mysql>LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet;
 ```
 
-如果您在Windows上使用\ r \ n作为行终止符的编辑器创建了该文件，则应该使用以下语句：
-
-
+如果您在Windows上使用 r  n作为行终止符的编辑器创建了该文件，则应该使用以下语句：
 
 ```
 mysql>LOAD DATA LOCAL INFILE '/path/pet.txt' INTO TABLE pet
     ->LINES TERMINATED BY '\r\n';
 ```
 
-
+（在运行OS X的Apple机器上，您可能要使用LINES TERMINATED BY'\ r'。）
 

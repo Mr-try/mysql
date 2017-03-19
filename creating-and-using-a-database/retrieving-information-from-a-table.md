@@ -26,5 +26,5 @@ FROM which_table
 WHERE conditions_to_satisfy;
 ```
 
-
+what\_to\_select指示您想要查看的内容。这可以一个或多个列的名称用“,”隔开，或\*表示“所有列”。which\_table指示要从中检索数据的表。 WHERE子句是可选的。如果存在，则conditions\_to\_satisfy指定行必须满足以满足检索要求的一个或多个条件。
 

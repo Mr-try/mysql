@@ -63,5 +63,5 @@ mysql>SELECT name, species, birth FROM pet
 +----------+---------+------------+
 ```
 
-
+DESC关键字仅适用于紧接其前面的列名（birth）;它不影响物种列排序顺序。
 

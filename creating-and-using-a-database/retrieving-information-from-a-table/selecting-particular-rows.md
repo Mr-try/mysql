@@ -42,3 +42,29 @@ mysql>SELECT * FROM pet WHERE species = 'dog' AND sex = 'f';
 
 上述查询使用AND逻辑运算符。此外，还有一个OR运算符：
 
+```
+mysql>SELECT * FROM pet WHERE species = 'snake' OR species = 'bird';
++----------+-------+---------+------+------------+-------+
+| name     | owner | species | sex  | birth      | death |
++----------+-------+---------+------+------------+-------+
+| Chirpy   | Gwen  | bird    | f    | 1998-09-11 | NULL  |
+| Whistler | Gwen  | bird    | NULL | 1997-12-09 | NULL  |
+| Slim     | Benny | snake   | m    | 1996-04-29 | NULL  |
++----------+-------+---------+------+------------+-------+
+```
+
+AND和OR可以混合，虽然AND具有比OR更高的优先级。如果使用两个运算符，最好使用括号来明确指示条件应如何分组：
+
+```
+mysql>SELECT * FROM pet WHERE (species = 'cat' AND sex = 'm')
+    ->OR (species = 'dog' AND sex = 'f');
++-------+--------+---------+------+------------+-------+
+| name  | owner  | species | sex  | birth      | death |
++-------+--------+---------+------+------------+-------+
+| Claws | Gwen   | cat     | m    | 1994-03-17 | NULL  |
+| Buffy | Harold | dog     | f    | 1989-05-13 | NULL  |
++-------+--------+---------+------+------------+-------+
+```
+
+
+

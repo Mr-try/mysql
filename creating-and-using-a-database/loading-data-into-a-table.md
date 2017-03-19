@@ -4,3 +4,24 @@
 
 假设你的pet记录可以做如下描述。 （注意，MySQL期望日期格式为“YYYY-MM-DD”;这可能与以前不同）。
 
+| name | owner | species | sex | birth | death |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Fluffy | Harold | cat | f | 1993-02-04 |  |
+| Claws | Gwen | cat | m | 1994-03-17 |  |
+| Buffy | Harold | dog | f | 1989-05-13 |  |
+| Fang | Benny | dog | m | 1990-08-27 |  |
+| Bowser | Diane | dog | m | 1979-08-31 | 1995-07-29 |
+| Chirpy | Gwen | bird | f | 1998-09-11 |  |
+| Whistler | Gwen | bird |  | 1997-12-09 |  |
+| Slim | Benny | snake | m | 1996-04-29 |  |
+
+因为你是从一个空表开始，一个简单的填充它的方法是创建一个文本文件，其中包含每一个动物的行，然后使用单个语句将文件的内容加载到表中。
+
+您可以创建一个pet.txt文件，其中每行包含一条记录，其值由制表符分隔，并按CREATE TABLE语句中列出的顺序给出。对于缺失值（如仍然存在的动物的未知性别或死亡日期），可以使用NULL值。要在文本文件中表示这些，请使用\ N（反斜杠，大写-N）。例如，Whistler的鸟的记录看起来像这样（值之间的空格是单个制表符）：
+
+```
+Whistler        Gwen    bird    \N      1997-12-09      \N
+```
+
+
+

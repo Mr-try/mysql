@@ -19,5 +19,24 @@ mysql>SELECT name, birth FROM pet;
 +----------+------------+
 ```
 
+要了解谁拥有宠物，请使用以下查询：
+
+```
+mysql>SELECT owner FROM pet;
++--------+
+| owner  |
++--------+
+| Harold |
+| Gwen   |
+| Harold |
+| Benny  |
+| Diane  |
+| Gwen   |
+| Gwen   |
+| Benny  |
+| Diane  |
++--------+
+```
+
 
 

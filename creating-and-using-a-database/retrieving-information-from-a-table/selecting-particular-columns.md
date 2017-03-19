@@ -54,3 +54,19 @@ mysql>SELECT DISTINCT owner FROM pet;
 
 您可以使用WHERE语句将行选择与列选择组合。例如，要仅为狗和猫生成出生日期，请使用以下查询：
 
+```
+mysql>SELECT name, species, birth FROM pet
+    ->WHERE species = 'dog' OR species = 'cat';
++--------+---------+------------+
+| name   | species | birth      |
++--------+---------+------------+
+| Fluffy | cat     | 1993-02-04 |
+| Claws  | cat     | 1994-03-17 |
+| Buffy  | dog     | 1989-05-13 |
+| Fang   | dog     | 1990-08-27 |
+| Bowser | dog     | 1989-08-31 |
++--------+---------+------------+
+```
+
+
+

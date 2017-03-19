@@ -27,5 +27,11 @@ mysql>SELECT * FROM pet;
 
 但是，如果您这样做，您还必须重新输入Puffball的记录。
 
+* 使用UPDATE语句仅仅修复错误的记录：
+
+```
+mysql>UPDATE pet SET birth = '1989-08-31' WHERE name = 'Bowser';
+```
+
 
 

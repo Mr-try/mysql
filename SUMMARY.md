@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-* [Chapter 4 Tutorial](SUMMARY.md)
+* [第四章：指南](SUMMARY.md)
   * [Connecting to and Disconnecting from the Server](chapter4/connecting-to-and-disconnecting-from-the-server.md)
   * [Entering Queries](chapter4/entering-queries.md)
   * [Creating and Using a Database](creating-and-using-a-database.md)
@@ -31,6 +31,4 @@
     * [Calculating Visits Per Day](chapter1/examples-of-common-queries/calculating-visits-per-day.md)
     * [Using AUTO\_INCREMENT](chapter1/examples-of-common-queries/using-autoincrement.md)
   * [Using MySQL with Apache](chapter4/using-mysql-with-apache.md)
-
-
 

@@ -32,3 +32,5 @@
     * [Using AUTO\_INCREMENT](chapter1/examples-of-common-queries/using-autoincrement.md)
   * [Using MySQL with Apache](chapter4/using-mysql-with-apache.md)
 
+
+

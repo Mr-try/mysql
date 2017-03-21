@@ -31,10 +31,32 @@ mysql>CREATE TABLE event (name VARCHAR(20), date DATE,
 
 按照如下命令加载记录：
 
-
-
 ```
 mysql>LOAD DATA LOCAL INFILE 'event.txt' INTO TABLE event;
+```
+
+基于您从在宠物表上运行的查询中学到的内容，您应该能够对事件表中的记录执行检索;原则是一样的。但是什么时候事件表本身不足以回答你可能会问的问题？
+
+假设你想知道每只宠物的窝窝的年龄。我们早期看到如何计算两个日期的年龄。母亲的垃圾日期在事件表中，但要计算她的年龄，您需要她的出生日期，该日期存储在宠物表中。这意味着查询需要两个表：
+
+```
+
+```
+
+```
+mysql>SELECT pet.name,
+    ->TIMESTAMPDIFF(YEAR,birth,date) AS age,
+    ->remark
+    ->FROM pet INNER JOIN event
+    ->  ON pet.name = event.name
+    ->WHERE event.type = 'litter';
++--------+------+-----------------------------+
+| name   | age  | remark                      |
++--------+------+-----------------------------+
+| Fluffy |    2 | 4 kittens, 3 female, 1 male |
+| Buffy  |    4 | 5 puppies, 2 female, 3 male |
+| Buffy  |    5 | 3 puppies, 3 female         |
++--------+------+-----------------------------+
 ```
 
 

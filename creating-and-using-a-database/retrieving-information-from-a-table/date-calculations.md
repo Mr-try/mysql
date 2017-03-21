@@ -65,5 +65,18 @@ mysql>SELECT name, birth, CURDATE(),
 +----------+------------+------------+------+
 ```
 
+类似的查询可以用于确定死亡的动物的死亡年龄。你通过检查死亡值是否为NULL来确定这些动物。然后，对于那些具有非NULL值的计算死亡和出生值之间的差异：
 
+```
+mysql>SELECT name, birth, death,
+    ->TIMESTAMPDIFF(YEAR,birth,death) AS age
+    ->FROM pet WHERE death IS NOT NULL ORDER BY age;
++--------+------------+------------+------+
+| name   | birth      | death      | age  |
++--------+------------+------------+------+
+| Bowser | 1989-08-31 | 1995-07-29 |    5 |
++--------+------------+------------+------+
+```
+
+查询使用 death IS NOT NULL而不是death &lt;&gt; NULL，因为NULL是一个特殊的值，无法使用通常的比较运算符进行比较。这将在后面讨论。请参见Section 4.3.4.6, “Working with NULL Values”.。
 

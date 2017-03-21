@@ -14,5 +14,20 @@ mysql>CREATE TABLE event (name VARCHAR(20), date DATE,
     ->type VARCHAR(15), remark VARCHAR(255));
 ```
 
+与宠物表一样，通过创建包含以下信息的制表符分隔的文本文件来加载初始记录是最容易的。
+
+| name | date | type | remark |
+| :--- | :--- | :--- | :--- |
+| Fluffy | 1995-05-15 | litter | 4 kittens, 3 female, 1 male |
+| Buffy | 1993-06-23 | litter | 5 puppies, 2 female, 3 male |
+| Buffy | 1994-06-19 | litter | 3 puppies, 3 female |
+| Chirpy | 1999-03-21 | vet | needed beak straightened |
+| Slim | 1997-08-03 | vet | broken rib |
+| Bowser | 1991-10-12 | kennel |  |
+| Fang | 1991-10-12 | kennel |  |
+| Fang | 1998-08-28 | birthday | Gave him a new chew toy |
+| Claws | 1998-03-17 | birthday | Gave him a new flea collar |
+| Whistler | 1998-12-09 | birthday | First birthday |
+
 
 

@@ -86,5 +86,17 @@ mysql> SELECT * FROM pet WHERE name REGEXP '^b';
 mysql>SELECT * FROM pet WHERE name REGEXP BINARY '^b';
 ```
 
+要查找以fy结尾的名称，请使用$匹配名称的结尾：
+
+```
+mysql>SELECT * FROM pet WHERE name REGEXP 'fy$';
++--------+--------+---------+------+------------+-------+
+| name   | owner  | species | sex  | birth      | death |
++--------+--------+---------+------+------------+-------+
+| Fluffy | Harold | cat     | f    | 1993-02-04 | NULL  |
+| Buffy  | Harold | dog     | f    | 1989-05-13 | NULL  |
++--------+--------+---------+------+------------+-------+
+```
+
 
 

@@ -77,5 +77,21 @@ mysql>SELECT species, sex, COUNT(*) FROM pet GROUP BY species, sex;
 +---------+------+----------+
 ```
 
+当您使用COUNT\(\)时，不需要检索整个表。例如，上面的查询，当只对狗和猫执行时，看起来像这样：
+
+```
+mysql>SELECT species, sex, COUNT(*) FROM pet
+    ->WHERE species = 'dog' OR species = 'cat'
+    ->GROUP BY species, sex;
++---------+------+----------+
+| species | sex  | COUNT(*) |
++---------+------+----------+
+| cat     | f    |        1 |
+| cat     | m    |        1 |
+| dog     | f    |        1 |
+| dog     | m    |        2 |
++---------+------+----------+
+```
+
 
 

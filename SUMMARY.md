@@ -13,7 +13,7 @@
       * [4.3.4.2 查询指定行](creating-and-using-a-database/retrieving-information-from-a-table/selecting-particular-rows.md)
       * [4.3.4.3 查询指定列](creating-and-using-a-database/retrieving-information-from-a-table/selecting-particular-columns.md)
       * [4.3.4.4 结果排序](creating-and-using-a-database/retrieving-information-from-a-table/sorting-rows.md)
-      * [Date Calculations](creating-and-using-a-database/retrieving-information-from-a-table/date-calculations.md)
+      * [4.3.4.5 日期计算](creating-and-using-a-database/retrieving-information-from-a-table/date-calculations.md)
       * [Working with NULL Values](creating-and-using-a-database/retrieving-information-from-a-table/working-with-null-values.md)
       * [Pattern Matching](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
       * [Counting Rows](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)

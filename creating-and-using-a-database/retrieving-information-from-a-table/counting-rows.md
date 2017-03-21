@@ -44,5 +44,18 @@ mysql>SELECT species, COUNT(*) FROM pet GROUP BY species;
 +---------+----------+
 ```
 
+每种性别的宠物数：
+
+```
+mysql>SELECT sex, COUNT(*) FROM pet GROUP BY sex;
++------+----------+
+| sex  | COUNT(*) |
++------+----------+
+| NULL |        1 |
+| f    |        4 |
+| m    |        4 |
++------+----------+
+```
+
 
 

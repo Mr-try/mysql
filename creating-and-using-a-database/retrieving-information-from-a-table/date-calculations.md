@@ -110,5 +110,14 @@ mysql>SELECT name, birth FROM pet WHERE MONTH(birth) = 5;
 +-------+------------+
 ```
 
+如果当月是12月，有一个小问题。你不能只是添加一个月份（12），并寻找在13个月出生的动物，因为没有这样的月份。相反，你寻找在1月（第1个月）出生的动物。
+
+您可以编写查询，以使其工作，无论当前月份是什么，以便您不必使用特定月份的数字。 DATE\_ADD\(\)使您能够向给定日期添加时间间隔。如果向CURDATE（）的值添加一个月，则使用MONTH（）提取月份部分，结果将生成查找生日的月份：
+
+```
+mysql>SELECT name, birth FROM pet
+    ->WHERE MONTH(birth) = MONTH(DATE_ADD(CURDATE(),INTERVAL 1 MONTH));
+```
+
 
 

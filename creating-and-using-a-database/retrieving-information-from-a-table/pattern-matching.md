@@ -1,4 +1,6 @@
-#### 4.3.4.7 Pattern Matching
+#### 4.3.4.7 Pattern Matching
 
+MySQL提供标准的SQL模式匹配以及一种基于扩展正则表达式的模式匹配形式，类似于vi，grep和sed等Unix实用程序所使用的模式匹配。
 
+SQL模式匹配允许使用 \_ 匹配任何单个字符，% 可匹配任意数目的字符（包括零个字符）。在MySQL中，SQL模式默认情况下不区分大小写。这里显示了一些示例。在使用SQL模式时，不要使用=或&lt;&gt;;请使用LIKE或NOT LIKE比较运算符。
 

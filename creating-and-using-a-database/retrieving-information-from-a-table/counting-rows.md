@@ -93,5 +93,24 @@ mysql>SELECT species, sex, COUNT(*) FROM pet
 +---------+------+----------+
 ```
 
+或者，如果你想要每个性别的动物数量只有已知性别的动物：
+
+```
+mysql>SELECT species, sex, COUNT(*) FROM pet
+    ->WHERE sex IS NOT NULL
+    ->GROUP BY species, sex;
++---------+------+----------+
+| species | sex  | COUNT(*) |
++---------+------+----------+
+| bird    | f    |        1 |
+| cat     | f    |        1 |
+| cat     | m    |        1 |
+| dog     | f    |        1 |
+| dog     | m    |        2 |
+| hamster | f    |        1 |
+| snake   | m    |        1 |
++---------+------+----------+
+```
+
 
 

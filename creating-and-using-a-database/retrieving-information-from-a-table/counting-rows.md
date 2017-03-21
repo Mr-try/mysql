@@ -112,5 +112,36 @@ mysql>SELECT species, sex, COUNT(*) FROM pet
 +---------+------+----------+
 ```
 
+如果除了COUNT（）值之外命名要选择的列，还应该有一个GROUP BY子句，用于命名这些相同的列。否则，会发生以下情况：
+
+* 如果启用ONLY\_FULL\_GROUP\_BY SQL模式，则会发生错误：
+
+```
+mysql>SET sql_mode = 'ONLY_FULL_GROUP_BY';
+Query OK, 0 rows affected (0.00 sec)
+mysql>SELECT owner, COUNT(*) FROM pet;
+ERROR 1140 (42000): In aggregated query without GROUP BY, expression
+#1 of SELECT list contains nonaggregated column 'menagerie.pet.owner';
+this is incompatible with sql_mode=only_full_group_by
+```
+
+* 如果未启用ONLY\_FULL\_GROUP\_BY，则通过将所有行视为单个组来处理查询，但为每个命名列选择的值不确定。服务器可以从任意行中自由选择值：
+
+```
+
+```
+
+```
+mysql>SET sql_mode = '';
+Query OK, 0 rows affected (0.00 sec)
+mysql>SELECT owner, COUNT(*) FROM pet;
++--------+----------+
+| owner  | COUNT(*) |
++--------+----------+
+| Harold |        8 |
++--------+----------+
+1 row in set (0.00 sec)
+```
+
 
 

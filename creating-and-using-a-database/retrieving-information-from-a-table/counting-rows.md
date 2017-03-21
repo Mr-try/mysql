@@ -128,10 +128,6 @@ this is incompatible with sql_mode=only_full_group_by
 * 如果未启用ONLY\_FULL\_GROUP\_BY，则通过将所有行视为单个组来处理查询，但为每个命名列选择的值不确定。服务器可以从任意行中自由选择值：
 
 ```
-
-```
-
-```
 mysql>SET sql_mode = '';
 Query OK, 0 rows affected (0.00 sec)
 mysql>SELECT owner, COUNT(*) FROM pet;
@@ -143,5 +139,5 @@ mysql>SELECT owner, COUNT(*) FROM pet;
 1 row in set (0.00 sec)
 ```
 
-
+另请参见第13.19.3节“GROUP BY的MySQL处理”。有关COUNT（expr）行为和相关优化的信息，请参见第13.19.1节“聚合（GROUP BY）功能说明”。
 

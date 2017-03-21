@@ -1,4 +1,6 @@
-#### 4.3.4.5 Date Calculations
+#### 4.3.4.5 Date Calculations
+
+MySQL提供了几个函数，可用于对日期执行计算，例如，计算年龄或提取日期的部分内容。
 
 
 

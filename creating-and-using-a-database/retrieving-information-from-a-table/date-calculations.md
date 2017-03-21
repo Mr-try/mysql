@@ -119,5 +119,12 @@ mysql>SELECT name, birth FROM pet
     ->WHERE MONTH(birth) = MONTH(DATE_ADD(CURDATE(),INTERVAL 1 MONTH));
 ```
 
+另一种方法是在使用模数函数（MOD）后将当前值加1以获得下一个月，如果当前值为12，则将月值包装为0：
+
+```
+mysql>SELECT name, birth FROM pet
+    ->WHERE MONTH(birth) = MOD(MONTH(CURDATE()), 12) + 1;
+```
+
 
 

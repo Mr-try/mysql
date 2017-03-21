@@ -126,5 +126,5 @@ mysql>SELECT name, birth FROM pet
     ->WHERE MONTH(birth) = MOD(MONTH(CURDATE()), 12) + 1;
 ```
 
-MONTH\(\)返回一个介于1和12之间的数字。而MOD\(something,12\)返回一个介于0和11之间的数字。因此，加法必须在MOD\(\)之后，否则我们得到的将是\(11\)-\(1\)。
+MONTH\(\)返回一个介于1和12之间的数字。而MOD\(something,12\)返回一个介于0和11之间的数字。因此，加法必须在MOD\(\)之后，否则我们得到的将是\(11\)到\(1\)。
 

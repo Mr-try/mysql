@@ -80,5 +80,11 @@ mysql> SELECT * FROM pet WHERE name REGEXP '^b';
 +--------+--------+---------+------+------------+------------+
 ```
 
+如果你真的想强制REGEXP比较区分大小写，使用BINARY关键字使其中一个字符串成为二进制字符串。此查询仅匹配名称开头的小写b：
+
+```
+mysql>SELECT * FROM pet WHERE name REGEXP BINARY '^b';
+```
+
 
 

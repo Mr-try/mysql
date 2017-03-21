@@ -16,7 +16,7 @@
       * [4.3.4.5 日期计算](creating-and-using-a-database/retrieving-information-from-a-table/date-calculations.md)
       * [4.3.4.6 NULL值](creating-and-using-a-database/retrieving-information-from-a-table/working-with-null-values.md)
       * [4.3.4.7 正则匹配](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
-      * [Counting Rows](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
+      * [4.3.4.8 结果计数](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
       * [Using More Than one Table](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
   * [Getting Information About Databases and Tables](chapter4/getting-information-about-databases-and-tables.md)
   * [Using mysql in Batch Mode](chapter4/using-mysql-in-batch-mode.md)

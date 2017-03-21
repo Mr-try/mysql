@@ -57,5 +57,7 @@ mysql>SELECT sex, COUNT(*) FROM pet GROUP BY sex;
 +------+----------+
 ```
 
+（在此输出中，NULL表示性别未知。）
 
+每类宠物和性别的组合的数量：
 

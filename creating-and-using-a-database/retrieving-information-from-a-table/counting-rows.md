@@ -61,3 +61,21 @@ mysql>SELECT sex, COUNT(*) FROM pet GROUP BY sex;
 
 每类宠物和性别的组合的数量：
 
+```
+mysql>SELECT species, sex, COUNT(*) FROM pet GROUP BY species, sex;
++---------+------+----------+
+| species | sex  | COUNT(*) |
++---------+------+----------+
+| bird    | NULL |        1 |
+| bird    | f    |        1 |
+| cat     | f    |        1 |
+| cat     | m    |        1 |
+| dog     | f    |        1 |
+| dog     | m    |        2 |
+| hamster | f    |        1 |
+| snake   | m    |        1 |
++---------+------+----------+
+```
+
+
+

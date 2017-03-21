@@ -30,3 +30,18 @@ mysql>SELECT 1 = NULL, 1 <> NULL, 1 <NULL, 1 >NULL;
 
 在GROUP BY中，两个NULL值被视为相等。
 
+当做一个ORDER BY时，如果你做ORDER BY ... ASC，最后出现NULL值，如果你做ORDER BY ... DESC，最后出现NULL值。
+
+使用NULL时的常见错误是假定不能在定义为NOT NULL的列中插入零或空字符串，但情况并非如此。这些实际上是值，而NULL意味着“不具有值”。您可以通过使用IS \[NOT\] NULL如此简单地测试这个值：
+
+```
+mysql>SELECT 0 IS NULL, 0 IS NOT NULL, '' IS NULL, '' IS NOT NULL;
++-----------+---------------+------------+----------------+
+| 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL |
++-----------+---------------+------------+----------------+
+|         0 |             1 |          0 |              1 |
++-----------+---------------+------------+----------------+
+```
+
+
+

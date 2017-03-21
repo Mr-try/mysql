@@ -30,3 +30,16 @@ mysql>SELECT * FROM pet WHERE name LIKE '%fy';
 
 要查找以包含w字符的名称：
 
+```
+mysql>SELECT * FROM pet WHERE name LIKE '%w%';
++----------+-------+---------+------+------------+------------+
+| name     | owner | species | sex  | birth      | death      |
++----------+-------+---------+------+------------+------------+
+| Claws    | Gwen  | cat     | m    | 1994-03-17 | NULL       |
+| Bowser   | Diane | dog     | m    | 1989-08-31 | 1995-07-29 |
+| Whistler | Gwen  | bird    | NULL | 1997-12-09 | NULL       |
++----------+-------+---------+------+------------+------------+
+```
+
+
+

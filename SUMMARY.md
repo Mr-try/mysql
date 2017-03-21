@@ -17,7 +17,7 @@
       * [4.3.4.6 NULL值](creating-and-using-a-database/retrieving-information-from-a-table/working-with-null-values.md)
       * [4.3.4.7 正则匹配](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
       * [4.3.4.8 结果计数](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
-      * [Using More Than one Table](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
+      * [4.3.4.9 多表查询](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
   * [Getting Information About Databases and Tables](chapter4/getting-information-about-databases-and-tables.md)
   * [Using mysql in Batch Mode](chapter4/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter4/examples-of-common-queries.md)

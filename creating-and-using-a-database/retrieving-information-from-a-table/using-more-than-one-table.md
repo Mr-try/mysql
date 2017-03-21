@@ -40,10 +40,6 @@ mysql>LOAD DATA LOCAL INFILE 'event.txt' INTO TABLE event;
 假设你想知道每只宠物的窝窝的年龄。我们早期看到如何计算两个日期的年龄。母亲的垃圾日期在事件表中，但要计算她的年龄，您需要她的出生日期，该日期存储在宠物表中。这意味着查询需要两个表：
 
 ```
-
-```
-
-```
 mysql>SELECT pet.name,
     ->TIMESTAMPDIFF(YEAR,birth,date) AS age,
     ->remark

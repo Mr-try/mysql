@@ -23,7 +23,7 @@ mysql>SELECT name, birth, CURDATE(),
 +----------+------------+------------+------+
 ```
 
-如果行以某种顺序显示，结果可以更容易扫描。这可以通过添加一个ORDER BY name子句来按名称对输出进行排序：
+如果行以某种顺序显示，查询结果可以更容易扫描。这可以通过添加一个ORDER BY name子句来按名称对输出进行排序：
 
 ```
 mysql>SELECT name, birth, CURDATE(),

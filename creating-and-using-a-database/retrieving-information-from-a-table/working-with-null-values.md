@@ -22,5 +22,11 @@ mysql>SELECT 1 = NULL, 1 <> NULL, 1 <NULL, 1 >NULL;
 +----------+-----------+----------+----------+
 ```
 
+因为与NULL的任何算术比较的结果也为NULL，您不能从这种比较获得任何有意义的结果。
 
+在MySQL中，0或NULL表示false，任何其他值都表示真。布尔运算的真值默认为1。
+
+这也是在前面的部分，在确定哪些动物不再活着使用death IS NOT NULL而不是death &lt;&gt; NULL的原因。
+
+在GROUP BY中，两个NULL值被视为相等。
 

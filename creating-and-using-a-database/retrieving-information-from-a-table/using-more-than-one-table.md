@@ -29,5 +29,13 @@ mysql>CREATE TABLE event (name VARCHAR(20), date DATE,
 | Claws | 1998-03-17 | birthday | Gave him a new flea collar |
 | Whistler | 1998-12-09 | birthday | First birthday |
 
+按照如下命令加载记录：
+
+
+
+```
+mysql>LOAD DATA LOCAL INFILE 'event.txt' INTO TABLE event;
+```
+
 
 

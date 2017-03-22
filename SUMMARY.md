@@ -18,7 +18,7 @@
       * [4.3.4.7 正则匹配](creating-and-using-a-database/retrieving-information-from-a-table/pattern-matching.md)
       * [4.3.4.8 结果计数](creating-and-using-a-database/retrieving-information-from-a-table/counting-rows.md)
       * [4.3.4.9 多表查询](creating-and-using-a-database/retrieving-information-from-a-table/using-more-than-one-table.md)
-  * [4.3.5 库表信息获取](chapter4/getting-information-about-databases-and-tables.md)
+  * [4.4 库表信息获取](chapter4/getting-information-about-databases-and-tables.md)
   * [Using mysql in Batch Mode](chapter4/using-mysql-in-batch-mode.md)
   * [Examples of Common Queries](chapter4/examples-of-common-queries.md)
     * [The Maximum Value for a Column](chapter4/examples-of-common-queries/the-maximum-value-for-a-column.md)

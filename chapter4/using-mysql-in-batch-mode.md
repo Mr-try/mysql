@@ -12,5 +12,5 @@ shell>mysql < batch-file
 C:\>mysql -e "source batch-file"
 ```
 
-
+如果需要在命令行中指定连接参数，命令可以如下所示：
 

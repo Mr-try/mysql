@@ -14,3 +14,15 @@ C:\>mysql -e "source batch-file"
 
 如果需要在命令行中指定连接参数，命令可以如下所示：
 
+```
+
+```
+
+```
+shell>mysql -h host -u user -p <batch-file
+Enter password: 
+********
+```
+
+
+

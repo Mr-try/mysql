@@ -34,7 +34,7 @@ shell>mysql your-database-name
 
 ```
  CREATE TABLE shop (
-       article INT(4) UNSIGNED ZEROFILL DEFAULT '0000' NOT NULL,
+    article INT(4) UNSIGNED ZEROFILL DEFAULT '0000' NOT NULL,
     dealer  CHAR(20)                 DEFAULT ''     NOT NULL,
     price   DOUBLE(16,2)             DEFAULT '0.00' NOT NULL,
     PRIMARY KEY(article, dealer));

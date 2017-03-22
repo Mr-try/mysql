@@ -27,5 +27,23 @@ mysql>SHOW TABLES;
 +---------------------+
 ```
 
+此语句生成的输出中的列名称始终为Tables\_in\_db\_name，其中db\_name是数据库的名称。有关详细信息，请参见第14.7.5.37节“显示表语法”。
+
+如果你想了解一个表的结构，DESCRIBE语句是有用的;它显示有关每个表的列的信息：
+
+```
+mysql>DESCRIBE pet;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| name    | varchar(20) | YES  |     | NULL    |       |
+| owner   | varchar(20) | YES  |     | NULL    |       |
+| species | varchar(20) | YES  |     | NULL    |       |
+| sex     | char(1)     | YES  |     | NULL    |       |
+| birth   | date        | YES  |     | NULL    |       |
+| death   | date        | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+```
+
 
 

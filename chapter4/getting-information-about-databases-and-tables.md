@@ -45,5 +45,11 @@ mysql>DESCRIBE pet;
 +---------+-------------+------+-----+---------+-------+
 ```
 
-Fieldbiao列名称，Type是列的数据类型，NULL表示列是否可以包含NULL值，Key表示列是否已建立索引，“Default”指定列的默认值。 “额外”显示有关列的特殊信息：如果使用AUTO\_INCREMENT选项创建列，则该值将为auto\_increment而不是空。
+Fieldbiao列名称，Type是列的数据类型，NULL表示列是否可以包含NULL值，Key表示列是否已建立索引，“Default”指定列的默认值。 “Extra ”显示有关列的特殊信息：如果使用AUTO\_INCREMENT选项创建列，则该值将为auto\_increment而不是空。
+
+DESC是DESCRIBE的简称。有关详细信息，请参见第14.8.1节“描述语法”。
+
+您可以使用SHOW CREATE TABLE语句获取创建现有表所需的CREATE TABLE语句。请参见第14.7.5.10节“SHOW CREATE TABLE语法”。
+
+如果您在表上有索引，SHOW INDEX FROM tbl\_name会生成有关它们的信息。有关此语句的更多信息，请参见第14.7.5.22节“显示索引语法”。
 

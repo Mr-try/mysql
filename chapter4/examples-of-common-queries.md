@@ -28,5 +28,20 @@ Some of the examples use the table`shop`to hold the price of each article \(item
 shell>mysql your-database-name
 ```
 
+（在大多数MySQL安装中，可以使用名为test的数据库）。
+
+您可以使用以下语句创建并填充示例表：
+
+```
+ CREATE TABLE shop (
+       article INT(4) UNSIGNED ZEROFILL DEFAULT '0000' NOT NULL,
+    dealer  CHAR(20)                 DEFAULT ''     NOT NULL,
+    price   DOUBLE(16,2)             DEFAULT '0.00' NOT NULL,
+    PRIMARY KEY(article, dealer));
+INSERT INTO shop VALUES
+    (1,'A',3.45),(1,'B',3.99),(2,'A',10.99),(3,'B',1.45),
+    (3,'C',1.69),(3,'D',1.25),(4,'D',19.95);
+```
+
 
 

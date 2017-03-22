@@ -19,5 +19,5 @@ shell>mysql -h host -u user -p < batch-file
 Enter password: ********
 ```
 
-
+当您以这种方式使用mysql时，您需要先创建一个脚本文件，然后执行该脚本。
 

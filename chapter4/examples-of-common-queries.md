@@ -22,3 +22,11 @@
 
 Some of the examples use the table`shop`to hold the price of each article \(item number\) for certain traders \(dealers\). Supposing that each trader has a single fixed price per article, then \(`article`,`dealer`\) is a primary key for the records.
 
+启动命令行工具mysql并选择一个数据库：
+
+```
+shell>mysql your-database-name
+```
+
+
+

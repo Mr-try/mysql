@@ -112,7 +112,7 @@ mysql>SELECT species, sex, COUNT(*) FROM pet
 +---------+------+----------+
 ```
 
-如果除了COUNT\(\)值之外命名要选择的列，还应该有一个GROUP BY子句，用于命名这些相同的列。否则，会发生以下情况：
+如果除了COUNT\(\)值之外还有其他要选择的列，则需要添加一个GROUP BY子句。否则，会发生以下情况：
 
 * 如果启用ONLY\_FULL\_GROUP\_BY SQL模式，则会发生错误：
 

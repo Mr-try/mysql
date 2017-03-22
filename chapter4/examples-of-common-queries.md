@@ -20,7 +20,5 @@
 
 以下是如何解决MySQL的一些常见问题的示例。
 
-一些示例使用shop表来保存某些交易者（dealers商）的每篇文章（item number）的价格。假设每个交易者每个单据固定价格单一，那么（article，dealer）是记录的主要关键。
-
-
+一些示例使用shop表来保存某些交易者（dealers商）的每篇文章（item number）的价格。假设每个交易者每个单据固定价格单一，那么（article，dealer）是表的主键。
 

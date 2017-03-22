@@ -6,5 +6,11 @@
 shell>mysql < batch-file
 ```
 
+如果您在Windows下运行mysql，为了避免特殊字符带来的问题，您可以这样做：
+
+```
+C:\>mysql -e "source batch-file"
+```
+
 
 

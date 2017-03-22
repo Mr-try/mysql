@@ -71,12 +71,12 @@ snake
 
 如果要以批处理方式获取交互式输出格式，请使用mysql  -t。要输出执行的语句输出，请使用mysql  -v。
 
-您还可以使用来自mysql提示符的脚本使用source命令或\\ . 命令：
+您还可以使用来自mysql提示符的脚本使用source命令或\ . 命令：
 
 ```
 mysql>source filename;
 mysql>\. filename
 ```
 
-
+有关详细信息，请参见第5.5.1.5节“从文本文件执行SQL语句”。
 

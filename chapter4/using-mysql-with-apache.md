@@ -21,5 +21,5 @@ LOAD DATA INFILE '/local/access_log' INTO TABLE tbl_name
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '\\'
 ```
 
-应创建一个具有与LogFormat行写入日志文件的列对应的表。
+应创建一个具有与LogFormat日志文件的列对应的表。
 

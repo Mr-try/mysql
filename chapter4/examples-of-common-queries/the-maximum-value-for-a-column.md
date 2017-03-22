@@ -13,3 +13,5 @@ SELECT MAX(article) AS article FROM shop;
 
 最低则用MIN\(\)
 
+平均则用 AVG\(\)
+

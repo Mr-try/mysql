@@ -4,3 +4,14 @@
 
 您以前看过SHOW DATABASES，其中列出了由服务器管理的数据库。要查找当前选择的数据库，请使用DATABASE\(\)函数：
 
+```
+mysql>SELECT DATABASE();
++------------+
+| DATABASE() |
++------------+
+| menagerie  |
++------------+
+```
+
+
+

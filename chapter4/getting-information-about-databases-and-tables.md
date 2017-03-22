@@ -45,5 +45,5 @@ mysql>DESCRIBE pet;
 +---------+-------------+------+-----+---------+-------+
 ```
 
-
+Fieldbiao列名称，Type是列的数据类型，NULL表示列是否可以包含NULL值，Key表示列是否已建立索引，“Default”指定列的默认值。 “额外”显示有关列的特殊信息：如果使用AUTO\_INCREMENT选项创建列，则该值将为auto\_increment而不是空。
 

@@ -58,5 +58,16 @@ shell>mysql < batch-file > mysql.out
 +---------+
 ```
 
+在批处理模式下，输出如下所示：
+
+```
+species
+bird
+cat
+dog
+hamster
+snake
+```
+
 
 

@@ -4,5 +4,15 @@
 
 您可以通过将以下内容放入Apache配置文件中使Apache日志记录格式更改为易于读取：
 
+```
+
+```
+
+```
+LogFormat \
+        "\"%h\",%{%Y%m%d%H%M%S}t,%>s,\"%b\",\"%{Content-Type}o\",  \
+        \"%U\",\"%{Referer}i\",\"%{User-Agent}i\""
+```
+
 
 

@@ -17,10 +17,6 @@ LogFormat \
 要将该格式的日志文件加载到MySQL中，可以使用如下语句：
 
 ```
-
-```
-
-```
 LOAD DATA INFILE '/local/access_log' INTO TABLE tbl_name
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' ESCAPED BY '\\'
 ```

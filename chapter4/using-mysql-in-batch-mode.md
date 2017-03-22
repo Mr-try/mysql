@@ -16,8 +16,7 @@ C:\>mysql -e "source batch-file"
 
 ```
 shell>mysql -h host -u user -p < batch-file
-Enter password: 
-********
+Enter password: ********
 ```
 
 

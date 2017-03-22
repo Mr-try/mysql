@@ -11,7 +11,11 @@ SELECT MAX(article) AS article FROM shop;
 +---------+
 ```
 
+==来自评论区==
+
 最低则用 MIN\(\)
 
 平均则用 AVG\(\)
+
+求和则用 SUM\(\)
 

@@ -95,5 +95,5 @@ SELECT s.* FROM person p INNER JOIN shirt s
     PRIMARY KEY  (`id`)
     ) ENGINE=MyISAM DEFAULT CHARSET=latin1
 
-
+使用REFERENCES以此方式作为列定义中的注释或“提醒”可与MyISAM表配合使用。
 

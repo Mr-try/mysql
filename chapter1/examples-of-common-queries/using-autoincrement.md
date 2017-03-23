@@ -39,5 +39,5 @@ SELECT * FROM animals;
 
 **注意：**
 
-**对于多行插入，LAST\_INSERT\_ID（）和mysql\_insert\_id（）实际上从第一个插入的行返回AUTO\_INCREMENT键。这样可以在复制设置中在其他服务器上正确再现多行插入。**
+**对于多行插入，LAST\_INSERT\_ID\(\)和mysql\_insert\_id\(\)实际上从第一个插入的行返回AUTO\_INCREMENT键。这样可以在复制设置中在其他服务器上正确再现多行插入。**
 

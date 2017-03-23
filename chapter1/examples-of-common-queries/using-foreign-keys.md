@@ -71,10 +71,7 @@ SELECT * FROM shirt;
 SELECT s.* FROM person p INNER JOIN shirt s
    ON s.owner = p.id
  WHERE p.name LIKE 'Lilliana%'
-   AND s.color 
-<
->
- 'white';
+   AND s.color <>'white';
 
 +----+-------+--------+-------+
 | id | style | color  | owner |

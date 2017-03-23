@@ -94,5 +94,19 @@ SELECT * FROM animals ORDER BY grp,id;
 
 有关AUTO\_INCREMENT的更多信息，请访问：
 
+* How to assign the`AUTO_INCREMENT`attribute to a column:[Section 14.1.18, “CREATE TABLE Syntax”](https://dev.mysql.com/doc/refman/5.7/en/create-table.html), and[Section 14.1.8, “ALTER TABLE Syntax”](https://dev.mysql.com/doc/refman/5.7/en/alter-table.html).
+
+* How`AUTO_INCREMENT`behaves depending on the[`NO_AUTO_VALUE_ON_ZERO`](https://dev.mysql.com/doc/refman/5.7/en/sql-mode.html#sqlmode_no_auto_value_on_zero)SQL mode:[Section 6.1.8, “Server SQL Modes”](https://dev.mysql.com/doc/refman/5.7/en/sql-mode.html).
+
+* How to use the[`LAST_INSERT_ID()`](https://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_last-insert-id)function to find the row that contains the most recent`AUTO_INCREMENT`value:[Section 13.14, “Information Functions”](https://dev.mysql.com/doc/refman/5.7/en/information-functions.html).
+
+* Setting the`AUTO_INCREMENT`value to be used:[Section 6.1.5, “Server System Variables”](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html).
+
+* [Section 15.8.6, “AUTO\_INCREMENT Handling in InnoDB”](https://dev.mysql.com/doc/refman/5.7/en/innodb-auto-increment-handling.html)
+
+* `AUTO_INCREMENT`and replication:[Section 17.4.1.1, “Replication and AUTO\_INCREMENT”](https://dev.mysql.com/doc/refman/5.7/en/replication-features-auto-increment.html).
+
+* Server-system variables related to`AUTO_INCREMENT`\([`auto_increment_increment`](https://dev.mysql.com/doc/refman/5.7/en/replication-options-master.html#sysvar_auto_increment_increment)and[`auto_increment_offset`](https://dev.mysql.com/doc/refman/5.7/en/replication-options-master.html#sysvar_auto_increment_offset)\) that can be used for replication:[Section 6.1.5, “Server System Variables”](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html).
+
 
 

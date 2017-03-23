@@ -16,5 +16,20 @@ INSERT INTO animals (name) VALUES
 SELECT * FROM animals;
 ```
 
+返回结果：
+
+```
++----+---------+
+| id | name    |
++----+---------+
+|  1 | dog     |
+|  2 | cat     |
+|  3 | penguin |
+|  4 | lax     |
+|  5 | whale   |
+|  6 | ostrich |
++----+---------+
+```
+
 
 

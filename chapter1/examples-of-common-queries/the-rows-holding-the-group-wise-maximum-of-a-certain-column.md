@@ -33,7 +33,7 @@ JOIN (
   ON s1.article = s2.article AND s1.price = s2.price;
 ```
 
-`LEFT JOIN`:
+LEFT JOIN：
 
 ```
 SELECT s1.article, s1.dealer, s1.price

@@ -1,10 +1,6 @@
-### 4.6.8 Calculating Visits Per Day
+### 4.6.8 Calculating Visits Per Day
 
 以下示例显示了如何使用位组功能来计算用户访问网页每月的天数。
-
-```
-
-```
 
 ```
 CREATE TABLE t1 (year YEAR(4), month INT(2) UNSIGNED ZEROFILL,

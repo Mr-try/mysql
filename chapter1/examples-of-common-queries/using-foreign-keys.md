@@ -82,5 +82,5 @@ SELECT s.* FROM person p INNER JOIN shirt s
 +----+-------+--------+-------+
 ```
 
-
+当以这种方式使用时，REFERENCES语句不会显示在SHOW CREATE TABLE或DESCRIBE的输出中：
 

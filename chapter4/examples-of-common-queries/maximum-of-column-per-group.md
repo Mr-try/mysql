@@ -14,3 +14,16 @@ WHERE  price=(SELECT MAX(price) FROM shop);
 
 其他解决方案是使用LEFT JOIN或按价格降序排序所有行，并使用MySQL特定的LIMIT语句仅获取第一行：
 
+```
+SELECT s1.article, s1.dealer, s1.price FROM shop s1
+LEFT JOIN shop s2 ON s1.price < s2.price
+WHERE s2.article IS NULL;
+
+SELECT article, dealer, price
+FROM shop
+ORDER BY price DESC
+LIMIT 1;
+```
+
+
+

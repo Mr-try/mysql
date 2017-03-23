@@ -90,3 +90,9 @@ SELECT * FROM animals ORDER BY grp,id;
 
 * 如果AUTO\_INCREMENT列是多个索引的一部分，MySQL会使用以AUTO\_INCREMENT列开头的索引生成序列值（如果有的话）。例如，如果动态表中包含索引PRIMARY KEY（grp，id）和INDEX（id），则MySQL将忽略PRIMARY KEY以生成序列值。因此，该表将包含单个序列，而不是每个grp值的序列。
 
+**Further Reading**
+
+
+
+
+

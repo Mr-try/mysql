@@ -1,4 +1,6 @@
-### 4.6.6 Using Foreign Keys
+### 4.6.6 Using Foreign Keys
 
+在MySQL中，InnoDB表支持检查外键约束。请参见第15章“InnoDB存储引擎”和第1.8.2.3节“外键差异”。
 
+外键约束不仅仅需要连接两个表。对于除InnoDB之外的存储引擎，可以在定义列时使用REFERENCES tbl\_name（col\_name）语句，该参数没有实际的影响，仅作为备注或注释，您当前定义的列旨在引用另一个表中的列。使用这种语法时，实现这一点非常重要：
 

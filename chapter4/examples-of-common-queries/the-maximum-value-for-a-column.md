@@ -11,6 +11,8 @@ SELECT MAX(article) AS article FROM shop;
 +---------+
 ```
 
+---
+
 ==来自评论区==
 
 最低则用 MIN\(\)

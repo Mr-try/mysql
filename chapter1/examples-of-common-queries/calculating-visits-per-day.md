@@ -17,5 +17,14 @@ SELECT year,month,BIT_COUNT(BIT_OR(1<<day)) AS days FROM t1 GROUP BY year,month;
 
 返回结果：
 
+```
++------+-------+------+
+| year | month | days |
++------+-------+------+
+| 2000 |    01 |    3 |
+| 2000 |    02 |    2 |
++------+-------+------+
+```
+
 
 

@@ -86,5 +86,7 @@ SELECT * FROM animals ORDER BY grp,id;
 +--------+----+---------+
 ```
 
+在这种情况下（当AUTO\_INCREMENT列是多列索引的一部分时），如果删除任何组中具有最大AUTO\_INCREMENT值的行，则AUTO\_INCREMENT值将重新使用。即使对于MyISAM表也是如此，因为AUTO\_INCREMENT值通常不被重用。
 
+* 如果AUTO\_INCREMENT列是多个索引的一部分，MySQL会使用以AUTO\_INCREMENT列开头的索引生成序列值（如果有的话）。例如，如果动态表中包含索引PRIMARY KEY（grp，id）和INDEX（id），则MySQL将忽略PRIMARY KEY以生成序列值。因此，该表将包含单个序列，而不是每个grp值的序列。
 

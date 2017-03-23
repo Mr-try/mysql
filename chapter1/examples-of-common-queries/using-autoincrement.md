@@ -92,7 +92,7 @@ SELECT * FROM animals ORDER BY grp,id;
 
 **Further Reading**
 
-
+有关AUTO\_INCREMENT的更多信息，请访问：
 
 
 

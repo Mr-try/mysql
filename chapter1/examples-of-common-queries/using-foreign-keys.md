@@ -84,3 +84,16 @@ SELECT s.* FROM person p INNER JOIN shirt s
 
 当以这种方式使用时，REFERENCES语句不会显示在SHOW CREATE TABLE或DESCRIBE的输出中：
 
+    SHOW CREATE TABLE shirt\G
+    *************************** 1. row ***************************
+    Table: shirt
+    Create Table: CREATE TABLE `shirt` (
+    `id` smallint(5) unsigned NOT NULL auto_increment,
+    `style` enum('t-shirt','polo','dress') NOT NULL,
+    `color` enum('red','blue','orange','white','black') NOT NULL,
+    `owner` smallint(5) unsigned NOT NULL,
+    PRIMARY KEY  (`id`)
+    ) ENGINE=MyISAM DEFAULT CHARSET=latin1
+
+
+

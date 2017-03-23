@@ -7,5 +7,5 @@ SELECT field1_index, field2_index FROM test_table
 WHERE field1_index = '1' OR  field2_index = '1'
 ```
 
-
+MySql对这种情况进行了优化。请参见第9.2.1.3节“索引合并优化”。
 

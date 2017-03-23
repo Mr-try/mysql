@@ -41,3 +41,11 @@ SELECT * FROM animals;
 
 **对于多行插入，LAST\_INSERT\_ID\(\)和mysql\_insert\_id\(\)实际上从第一个插入的行返回AUTO\_INCREMENT键。这样可以在复制设置中在其他服务器上正确再现多行插入。**
 
+要以非1的AUTO\_INCREMENT值开始，请使用CREATE TABLE或ALTER TABLE设置该值，如下所示：
+
+```
+mysql>ALTER TABLE tbl AUTO_INCREMENT = 100;
+```
+
+
+

@@ -23,3 +23,15 @@ WHERE  price=(SELECT MAX(s2.price)
 
 不相关的子查询：
 
+```
+SELECT s1.article, dealer, s1.price
+FROM shop s1
+JOIN (
+  SELECT article, MAX(price) AS price
+  FROM shop
+  GROUP BY article) AS s2
+  ON s1.article = s2.article AND s1.price = s2.price;
+```
+
+
+

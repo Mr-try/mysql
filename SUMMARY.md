@@ -27,7 +27,7 @@
     * [4.6.4 持有特定列的组合最大值的行](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
     * [4.6.5 用户自定义变量](chapter1/examples-of-common-queries/using-user-defined-variables.md)
     * [4.6.6 使用外键](chapter1/examples-of-common-queries/using-foreign-keys.md)
-    * [Searching on Two Keys](chapter1/examples-of-common-queries/searching-on-two-keys.md)
+    * [4.6.7 使用不同的key](chapter1/examples-of-common-queries/searching-on-two-keys.md)
     * [Calculating Visits Per Day](chapter1/examples-of-common-queries/calculating-visits-per-day.md)
     * [Using AUTO\_INCREMENT](chapter1/examples-of-common-queries/using-autoincrement.md)
   * [4.7 在Apache中使用MySql](chapter4/using-mysql-with-apache.md)

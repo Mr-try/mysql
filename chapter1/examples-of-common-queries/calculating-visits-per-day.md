@@ -9,5 +9,11 @@ INSERT INTO t1 VALUES(2000,1,1),(2000,1,20),(2000,1,30),(2000,2,2),
             (2000,2,23),(2000,2,23);
 ```
 
+示例表包含表示用户访问页面的年月日值。要确定这些访问发生在每个月中有多少个不同的日期，请使用此查询：
+
+```
+SELECT year,month,BIT_COUNT(BIT_OR(1<<day)) AS days FROM t1 GROUP BY year,month;
+```
+
 
 

@@ -47,5 +47,7 @@ SELECT * FROM animals;
 mysql>ALTER TABLE tbl AUTO_INCREMENT = 100;
 ```
 
+**InnoDB Notes**
 
+有关InnoDB特有的AUTO\_INCREMENT使用信息，请参见第15.8.6节“InnoDB中的AUTO\_INCREMENT处理”。
 

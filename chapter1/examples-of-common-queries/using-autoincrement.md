@@ -55,8 +55,6 @@ mysql>ALTER TABLE tbl AUTO_INCREMENT = 100;
 
 对于MyISAM表，可以在多列索引中的辅助列上指定AUTO\_INCREMENT。在这种情况下，AUTO\_INCREMENT列的生成值计算为MAX\(auto\_increment\_column\)1 WHERE prefix = given-prefix。当您要将数据放入有序组中时，这很有用。
 
-
-
 ```
 CREATE TABLE animals (
     grp ENUM('fish','mammal','bird') NOT NULL,
@@ -71,6 +69,21 @@ INSERT INTO animals (grp,name) VALUES
     ('bird','ostrich');
 
 SELECT * FROM animals ORDER BY grp,id;
+```
+
+返回结果：
+
+```
++--------+----+---------+
+| grp    | id | name    |
++--------+----+---------+
+| fish   |  1 | lax     |
+| mammal |  1 | dog     |
+| mammal |  2 | cat     |
+| mammal |  3 | whale   |
+| bird   |  1 | penguin |
+| bird   |  2 | ostrich |
++--------+----+---------+
 ```
 
 

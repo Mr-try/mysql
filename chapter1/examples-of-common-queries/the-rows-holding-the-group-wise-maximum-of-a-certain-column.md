@@ -44,5 +44,5 @@ LEFT JOIN shop s2 ON s1.article = s2.article AND s1.price
 WHERE s2.article IS NULL;
 ```
 
-
+LEFT JOIN的工作原理是，当s1.price处于其最大值时，没有s2.price具有更大的值，s2行的值将为NULL。参见第14.2.9.2节“加入语法”。
 

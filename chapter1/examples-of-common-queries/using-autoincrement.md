@@ -37,7 +37,7 @@ SELECT * FROM animals;
 
 对于足够大的AUTO\_INCREMENT列，使用最小的整数数据类型来保存您需要的最大序列值。当列达到数据类型的上限时，下一次生成序列号则会失败。如果可能，使用UNSIGNED属性允许更大的范围。例如，如果使用TINYINT，最大允许序列号为127.对于TINYINT UNSIGNED，最大值为255.请参见第12.2.1节“整数类型（精确值） -  INTEGER，INT，SMALLINT，TINYINT，MEDIUMINT，BIGINT “对于所有整数类型的范围。
 
-**注意**
+**注意：**
 
 **对于多行插入，LAST\_INSERT\_ID（）和mysql\_insert\_id（）实际上从第一个插入的行返回AUTO\_INCREMENT键。这样可以在复制设置中在其他服务器上正确再现多行插入。**
 

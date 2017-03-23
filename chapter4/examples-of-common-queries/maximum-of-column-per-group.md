@@ -12,5 +12,5 @@ WHERE  price=(SELECT MAX(price) FROM shop);
 +---------+--------+-------+
 ```
 
-
+其他解决方案是使用LEFT JOIN或按价格降序排序所有行，并使用MySQL特定的LIMIT语句仅获取第一行：
 

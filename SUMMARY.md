@@ -25,7 +25,7 @@
     * [4.6.2 某列最大值的行](chapter4/examples-of-common-queries/maximum-of-column-per-group.md)
     * [4.6.3 多列的最大值](chapter1/examples-of-common-queries/the-row-holding-the-maximum-of-a-certain-column.md)
     * [4.6.4 持有特定列的组合最大值的行](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
-    * [Using User-Defined Variables](chapter1/examples-of-common-queries/using-user-defined-variables.md)
+    * [4.6.5 用户自定义变量](chapter1/examples-of-common-queries/using-user-defined-variables.md)
     * [Using Foreign Keys](chapter1/examples-of-common-queries/using-foreign-keys.md)
     * [Searching on Two Keys](chapter1/examples-of-common-queries/searching-on-two-keys.md)
     * [Calculating Visits Per Day](chapter1/examples-of-common-queries/calculating-visits-per-day.md)

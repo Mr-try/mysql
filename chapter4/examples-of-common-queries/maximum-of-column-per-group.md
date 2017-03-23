@@ -1,4 +1,4 @@
-### 4.6.3 The Row Holding the Maximum of a Certain Column
+### 4.6.2 The Row Holding the Maximum of a Certain Column
 
 任务：查找最贵文章的数量、经销商和价格。
 

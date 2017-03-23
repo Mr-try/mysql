@@ -23,7 +23,7 @@
   * [4.6 查询示例](chapter4/examples-of-common-queries.md)
     * [4.6.4 列的最大值](chapter4/examples-of-common-queries/the-maximum-value-for-a-column.md)
     * [4.6.5 某列最大值的行](chapter4/examples-of-common-queries/maximum-of-column-per-group.md)
-    * [The Row Holding the Maximum of a Certain Column](chapter1/examples-of-common-queries/the-row-holding-the-maximum-of-a-certain-column.md)
+    * [4.6.3 每组最大列数](chapter1/examples-of-common-queries/the-row-holding-the-maximum-of-a-certain-column.md)
     * [The Rows Holding the Group-wise Maximum of a Certain Column](chapter1/examples-of-common-queries/the-rows-holding-the-group-wise-maximum-of-a-certain-column.md)
     * [Using User-Defined Variables](chapter1/examples-of-common-queries/using-user-defined-variables.md)
     * [Using Foreign Keys](chapter1/examples-of-common-queries/using-foreign-keys.md)

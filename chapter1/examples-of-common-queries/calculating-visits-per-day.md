@@ -26,5 +26,5 @@ SELECT year,month,BIT_COUNT(BIT_OR(1<<day)) AS days FROM t1 GROUP BY year,month;
 +------+-------+------+
 ```
 
-
+该查询计算每个年/月组合中表格中显示的不同天数，自动删除重复的条目。
 
